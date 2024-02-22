@@ -1,0 +1,28 @@
+.language-selector {
+    width: 100px; /* Adjust as needed */
+  }
+  
+  .language-display {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-display span {
+    flex-grow: 1; /* Grow to fill available space */
+    /* Add padding or margin if needed */
+  }
+  
+  select {
+    width: 100%;
+    max-width: 200px; /* Adjust as needed */
+    overflow-x: auto;
+
+  }
+  
+  option {
+    white-space: normal;
+  }
+  
