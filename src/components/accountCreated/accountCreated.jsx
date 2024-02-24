@@ -2,6 +2,7 @@ import React from 'react';
 import LanguageSelector from "../languageSelector/languageSelector";
 import "./accountCreated.css";
 
+
 const AccountCreated = () => {
   return (
     

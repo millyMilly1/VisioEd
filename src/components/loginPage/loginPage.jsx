@@ -1,7 +1,7 @@
 import React from 'react';
 import "./loginPage.css";
 import LanguageSelector from "../languageSelector/languageSelector";
-
+import { Link } from 'react-router-dom';
 
 const loginPage = () => {
   return (
@@ -17,7 +17,6 @@ const loginPage = () => {
     <div className="frame-6-Jpb">
       <div className="frame-18-JCK">
         <LanguageSelector />
-  
         <div className="frame-17-Atj">
           <button className="read-aloud-Jzw">Read aloud</button>
           <img className="fluent-speaker-1-32-filled-FQP" src="../../assets/images/fluent-speaker-1-32-filled-Zas.png" alt="Fluent_speaker_icon" />
@@ -47,7 +46,7 @@ const loginPage = () => {
       </div>
       <div className="frame-6-RhV">
         <p className="you-already-have-an-account-n2F">
-        You do not have an account? <span>Create one here!</span>
+        You do not have an account? <Link to="/createAccount" className='createAccount'> Create one here!</Link>
         </p>
       </div>
     </div>
