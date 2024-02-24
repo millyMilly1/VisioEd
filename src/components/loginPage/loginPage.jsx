@@ -18,8 +18,8 @@ const loginPage = () => {
       <div className="frame-18-JCK">
         <LanguageSelector />
         <div className="frame-17-Atj">
-          <button className="read-aloud-Jzw">Read aloud</button>
-          <img className="fluent-speaker-1-32-filled-FQP" src="../../assets/images/fluent-speaker-1-32-filled-Zas.png" alt="Fluent_speaker_icon" />
+          <button className="read-aloud-Jzw">Read Aloud<img className="fluent-speaker-1-32-filled-FQP" src="../../assets/images/fluent-speaker-1-32-filled-Zas.png" alt="Fluent_speaker_icon" /></button>
+          
         </div>
       </div>
       <div className="frame-20-ZR5">
@@ -31,7 +31,8 @@ const loginPage = () => {
         </p>
       </div>
       <div className="frame-13-Gyh">
-        <button className="frame-13-Dtw" type="submit">Continue with Google</button>
+        <button className="frame-13-Dtw" type="submit"><img className="" src='../../assets/images/flat-color-icons-google-3Q7.png' alt='google_image' />Continue with Google</button>
+        
         <p className="or-uWs">OR</p>
         <div className="frame-12-SFu">
           <div className="frame-10-147">

@@ -28,7 +28,7 @@ const AccountCreated = () => {
         </div>
         <div className="frame-43-mco">
           <div className="component-13-hmM">
-            <img className="pngwing-1-p5H" src="../../assets/images/pngwing-1.png" alt="PNG Wing"/>
+            <img className="pngwing-1-p5H" src="../../assets/images/pngwing-1.png" alt="PNG_Wing"/>
           </div>
           <div className="frame-19-ZHm">
             <p className="account-created-usR">Account created</p>
@@ -37,7 +37,7 @@ const AccountCreated = () => {
         </div>
         <div className="frame-30-YvP">
           <button className="continue-to-profile-setup-G5h" type="button">Continue to profile setup</button>
-          <img className="ic-round-arrow-forward-zXV" src="../../assets/images/ic-round-arrow-forward-FpF.png" alt="Arrow Forward"/>
+          <img className="ic-round-arrow-forward-zXV" src="./ic-round-arrow-forward-FpF.png" alt="Arrow Forward"/>
         </div>
       </div>
     </div>
