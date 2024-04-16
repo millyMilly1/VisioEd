@@ -1,6 +1,7 @@
 import React from 'react';
 import LanguageSelector from "../languageSelector/languageSelector";
 import "./accountCreated.css";
+import { Link } from 'react-router-dom';
 
 
 const AccountCreated = () => {
@@ -36,7 +37,7 @@ const AccountCreated = () => {
           </div>
         </div>
         <div className="frame-30-YvP">
-          <button className="continue-to-profile-setup-G5h" type="button">Continue to profile setup</button>
+          <button className="continue-to-profile-setup-G5h" type="button"> <Link to="/createBio" >Continue to profile setup!</Link></button>
           <img className="ic-round-arrow-forward-zXV" src="./ic-round-arrow-forward-FpF.png" alt="Arrow Forward"/>
         </div>
       </div>
