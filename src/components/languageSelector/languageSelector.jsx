@@ -3,7 +3,7 @@ import "./languageSelector.css";
 
 function LanguageSelector() {
   const [selectedLanguage, setSelectedLanguage] = useState('English(USA)');
-  const languages = ['English(USA)', 'Spanish', 'French', 'German', 'Yoruba', 'Igbo', 'Hausa'];
+  const languages = ['English(USA)', 'Spanish', 'French', 'German'];
 
   const handleLanguageChange = (event) => {
     setSelectedLanguage(event.target.value);

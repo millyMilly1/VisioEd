@@ -39,7 +39,6 @@ const CreateBio = () => {
           <header className="frame-18-Tqd">
             <div className="frame-11-aQT">
               <LanguageSelector />
-              <img className="icon-park-solid-down-one-Ezo" src="../../assets/icon-park-solid-down-one-xzF.png" alt="Dropdown icon" />
             </div>
             <img className="vector-1-xR1" src="REPLACE_IMAGE:76:2918" alt="User profile icon" />
             <div className="frame-17-Vvj">
@@ -61,23 +60,23 @@ const CreateBio = () => {
                   <option value="Mr">Miss</option>
                   <option value="Mr">Master</option>
                 </select>
-                <input type="text" id="firstName" className="frame-4-KKR" aria-label="First name" required />
-                <input type="text" id="lastName" className="frame-3-R7Z" aria-label="Last name" required />
+                <input type="text" id="firstName" className="frame-4-KKR" aria-label="First name" placeholder='First name' required />
+                <input type="text" id="lastName" className="frame-3-R7Z" aria-label="Last name" placeholder='Last name' required />
               </div>
             </div>
             <div className="frame-36-Kij">
               <label htmlFor="birthday" className="your-birthday-gpB">Your birthday</label>
               <div className="frame-32-EKu">
                 <div className="frame-2-BF9">
-                  <input type="number" id="day" className="item-26-jXZ" min="1" max="31" aria-label="Day" required />
+                  <input type="number" id="day" className="item-26-jXZ" min="1" max="31" aria-label="Day" placeholder='DD' required />
                   <img className="mingcute-down-fill-UEF" src="../../assets/mingcute-down-fill-Erf.png" alt="Dropdown icon" />
                 </div>
                 <div className="frame-4-o1d">
-                  <input type="number" id="month" className="item-04-x9R"  min="1" max="12" aria-label="Month" required />
+                  <input type="number" id="month" className="item-04-x9R"  min="1" max="12" aria-label="Month" placeholder='MM' required />
                   <img className="mingcute-down-fill-UNf" src="../../assets/mingcute-down-fill-U2X.png" alt="Dropdown icon" />
                 </div>
                 <div className="frame-5-oQw">
-                  <input type="number" id="year" className="item-1950-XLw"  min="1900" max="2023" aria-label="Year" required />
+                  <input type="number" id="year" className="item-1950-XLw"  min="1900" max="2023" aria-label="Year" placeholder='YY' required />
                   <img className="mingcute-down-fill-TVV" src="../../assets/mingcute-down-fill-Ji7.png" alt="Dropdown icon" />
                 </div>
               </div>
@@ -92,7 +91,7 @@ const CreateBio = () => {
                   </div>
                   <img className="mingcute-down-fill-Cju" src="../../assets/mingcute-down-fill-vXm.png" alt="Dropdown icon" />
                 </div>
-                <input type="tel" id="phone" className="frame-5-87m" aria-label="Phone number" required />
+                <input type="tel" id="phone" className="frame-5-87m" aria-label="Phone number" placeholder='9012345678' required />
               </div>
             </div>
           </form>
