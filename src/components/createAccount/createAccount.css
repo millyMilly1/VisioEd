@@ -1,5 +1,5 @@
 html {
-	font-size: 57.5%;
+	font-size: 50%;
 }
 
 * {
@@ -17,7 +17,7 @@ input {
 }
 
 body {
-	width: 145rem;
+	width: 130rem;
 }
 
 .macbook-pro-14-14-Lqq {
@@ -373,7 +373,7 @@ body {
 	font-size: 1.6rem;
 	font-weight: 600;
 	line-height: 1.5;
-	color: #1a1a1a;
+	color: #eaeaea;
 	font-family: Poppins, 'Source Sans Pro';
 	white-space: nowrap;
 	display: flex;
@@ -382,6 +382,11 @@ body {
 	background-color: #eaeaea;
 	border-radius: 1.2rem;
 	flex-shrink: 0;
+}
+
+.frame-11-k5Z > .createacctbtn {
+	text-decoration: none;
+	color: black;
 }
 
 .macbook-pro-14-14-Lqq .frame-6-Jpb .frame-6-RhV {
@@ -411,4 +416,5 @@ body {
 	font-family: Poppins, 'Source Sans Pro';
 	white-space: nowrap;
 	flex-shrink: 0;
+	text-decoration: none;
 }

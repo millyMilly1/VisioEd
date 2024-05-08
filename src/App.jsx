@@ -24,15 +24,5 @@ const App = () => {
 
 export default App;
 
-/*<Router>
-      <Routes>
-        {/* Specify paths relative to the application's root /}
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/Loginpage" element={<LoginPage />} />
-        <Route path="/accountCreated" element={<AccountCreated />} />
-        <Route path="/createAccount" element={<CreateAccount />} />
-        <Route path="/testfile" element={<TestFile />} />
-      </Routes>
-    </Router>
-    */
+
 

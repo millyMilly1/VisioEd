@@ -2,6 +2,9 @@ import React from 'react';
 import './createAccount.css';
 import LanguageSelector from '../languageSelector/languageSelector';
 import { Link } from 'react-router-dom';
+import speaker from "../../assets/images/fluent-speaker-1-32-filled-1Th.png";
+
+
 
 const CreateAccount = () => {
   return (
@@ -20,7 +23,7 @@ const CreateAccount = () => {
       <div className="frame-17-Atj">
         <button className="read-aloud-Jzw" aria-label="Read aloud">
           Read aloud
-          <img className="fluent-speaker-1-32-filled-FQP" src="../../assets/images/fluent-speaker-1-32-filled-Zas.png" alt="Fluent speaker icon" />
+          <img className="fluent-speaker-1-32-filled-FQP" src={speaker} alt="Fluent speaker icon" />
         </button>
       </div>
     </nav>
@@ -50,14 +53,14 @@ const CreateAccount = () => {
             <label htmlFor="agree" className="frame-4-TCw">
               <p>
                 I agree to the
-                <span className="terms-of-service-9bZ">terms of service</span>
+                <span className="terms-of-service-9bZ"> terms of service</span>
                 <span className="and-HSs">and</span>
                 <span className="privacy-policy-S4s">privacy policy</span>
               </p>
             </label>
           </div>
         </div>
-        <button type="submit" className="frame-11-k5Z"><Link to='/accountCreated'>Create account</Link></button>
+        <button type="submit" className="frame-11-k5Z"><Link className='createacctbtn' to='/accountCreated'>Create account</Link></button>
       </form>
     </div>
 

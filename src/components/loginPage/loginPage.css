@@ -1,5 +1,5 @@
 html {
-	font-size: 57.5%;
+	font-size: 40%;
 }
 
 * {
@@ -17,12 +17,12 @@ input {
 }
 
 body {
-	width: 145rem;
+	width: 140rem;
 }
 
 .macbook-pro-14-14-Lqq {
 	box-sizing: border-box;
-	padding-left: 8rem;
+	padding-left: 7rem;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
@@ -33,7 +33,7 @@ body {
 
 .macbook-pro-14-14-Lqq .frame-7-gPu {
 	margin: 0rem 20.6rem 0.1rem 0rem;
-	width: 35.1rem;
+	width: 29rem;
 	flex-shrink: 0;
 }
 
@@ -59,7 +59,7 @@ body {
 	max-width: 35.1rem;
 	font-size: 3.6rem;
 	font-weight: 600;
-	line-height: 1.2222222222;
+	line-height: 1.2;
 	color: #ffffff;
 	font-family: Poppins, 'Source Sans Pro';
 	flex-shrink: 0;
@@ -77,8 +77,8 @@ body {
 .macbook-pro-14-14-Lqq .frame-6-Jpb {
 	box-sizing: border-box;
 	padding: 4.8rem 11.2rem 15.35rem 11.2rem;
-	width: 87.5rem;
-	height: 98.3rem;
+	width: 85rem;
+	height: 90.3rem;
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -411,4 +411,9 @@ body {
 	font-family: Poppins, 'Source Sans Pro';
 	white-space: nowrap;
 	flex-shrink: 0;
+}
+
+.createAccount {
+	text-decoration: none;
+	color: #008080;
 }

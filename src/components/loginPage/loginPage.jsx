@@ -2,6 +2,8 @@ import React from 'react';
 import "./loginPage.css";
 import LanguageSelector from "../languageSelector/languageSelector";
 import { Link } from 'react-router-dom';
+import speaker from "../../assets/images/fluent-speaker-1-32-filled-1Th.png";
+
 
 const loginPage = () => {
   return (
@@ -20,7 +22,7 @@ const loginPage = () => {
       <div className="frame-17-Atj">
         <button className="read-aloud-Jzw" aria-label="Read aloud">
           Read Aloud
-          <img className="fluent-speaker-1-32-filled-FQP" src="../../assets/images/fluent-speaker-1-32-filled-Zas.png" alt="Fluent speaker icon" />
+          <img className="fluent-speaker-1-32-filled-FQP" src={speaker} alt="Fluent speaker icon" />
         </button>
       </div>
     </div>
@@ -35,7 +37,6 @@ const loginPage = () => {
 
     <div className="frame-13-Gyh">
       <button className="frame-13-Dtw" type="button" aria-label="Continue with Google">
-        <img className="" src='../../assets/images/flat-color-icons-google-3Q7.png' alt='Google icon' />
         Continue with Google
       </button>
       <p className="or-uWs">OR</p>
@@ -52,10 +53,7 @@ const loginPage = () => {
 
     <div className="frame-6-RhV">
       <p className="you-already-have-an-account-n2F">
-        You do not have an account?
-        <Link to="/createAccount" className='createAccount'>
-          Create one here!
-        </Link>
+        You do not have an account? <Link to="/createAccount" className='createAccount'> Create one here!</Link>
       </p>
     </div>
   </main>

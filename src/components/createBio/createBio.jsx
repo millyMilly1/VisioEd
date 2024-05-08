@@ -1,6 +1,7 @@
 import React from 'react';
 import './fill-profile-fSs.css';
 import LanguageSelector from '../languageSelector/languageSelector';
+import speaker from "../../assets/images/fluent-speaker-1-32-filled-1Th.png";
 
 const CreateBio = () => {
   return (
@@ -43,7 +44,7 @@ const CreateBio = () => {
             <img className="vector-1-xR1" src="REPLACE_IMAGE:76:2918" alt="User profile icon" />
             <div className="frame-17-Vvj">
               <p className="read-aloud-Sb5">Read aloud</p>
-              <img className="fluent-speaker-1-32-filled-aSP" src="../../assets/fluent-speaker-1-32-filled-zU3.png" alt="Speaker icon" />
+              <img className="fluent-speaker-1-32-filled-FQP" src={speaker} alt="Fluent speaker icon" />
             </div>
           </header>
           <article className="frame-20-VZM">

@@ -2,6 +2,9 @@ import React from 'react';
 import LanguageSelector from "../languageSelector/languageSelector";
 import "./accountCreated.css";
 import { Link } from 'react-router-dom';
+import speaker from "../../assets/images/fluent-speaker-1-32-filled-1Th.png";
+
+
 
 
 const AccountCreated = () => {
@@ -28,11 +31,7 @@ const AccountCreated = () => {
       <div className="frame-17-N4s">
         <button className="read-aloud-JjD" aria-label="Read aloud">
           Read aloud
-          <img
-            className="fluent-speaker-1-32-filled-qj9"
-            src="../../assets/images/fluent-speaker-1-32-filled-xHq.png"
-            alt="Fluent Speaker"
-          />
+          <img className="fluent-speaker-1-32-filled-FQP" src={speaker} alt="Fluent speaker icon" />
         </button>
       </div>
     </nav>
